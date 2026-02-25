@@ -1,0 +1,43 @@
+body{
+    background-image: url('./img/fundo_final.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(8, 8, 8);
+    text-align: right;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-indent: 50px;
+    color: #ccbb99;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #ccbb99;
+}
+
+footer{
+    background-color: #ccbb99;
+    margin-bottom: 20px;
+.p2{
+    color: black;
+    font-style: italic;
+    margin-left: -20px;
+    font-size: 0.9em;
+}
+}
+.conteiner {
+    border:  dotted 1px #ccbb99;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 750px;
+}
+
+img{
+    width: 380px;
+}
