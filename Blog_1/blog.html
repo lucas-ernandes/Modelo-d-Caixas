@@ -9,37 +9,57 @@
 <body>
     <div id="#conteiner">
         <header>
-            <h1>Blog do Lucas</h1>
+            <h1 class="texto-img">Blog do IFPI</h1>
             <p>O blog mais legal do IFPI</p>
             <nav>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Ultima postagem</li>
-                    <li>Primeira postagem</li>
-                    <li>Contato</li>
+                    <li><a href="#ini">Inicio</a></li>
+                    <li><a href="#ultima">Ultima postagem</a></li>
+                    <li><a href="#primeira">Primeira postagem</a></li>
+                    <li><a href="#rodape">Contato</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <article id="ultima">
+              <section id="postagens">
+                <article id="ultima" class = "card">
+
                 <h2>Última postagem!</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni debitis blanditiis obcaecati exercitationem et omnis nihil sint fugit expedita commodi. Inventore at eius dolorem aperiam officiis obcaecati odit, impedit dicta.</p>
                 <p class="autor">lucas.ernandes<spam class="data-hora">15/03/20266 - 16:30</spam></p>
             </article>
-            <article>
+            <article class = "card">
+                <h2>Post de hoje</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque.</p>
+                <p class="autor"> ely.miranda <spam class="data-hora">03/03/2026 17:00</spam> </p>
+                </article>
+            <article class="card">
                 <h2>Bem Vindos ao nosso Blog!</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea harum expedita iste praesentium earum ad labore officia, dignissimos, sunt deserunt distinctio accusamus ratione! Dignissimos alias culpa aperiam aliquid facilis.</p>
                 <p class="autor"> lucas.ernandes <spam class="data-hora">14/03/2026 - 18:00</spam>
                 </p>
             </article>
-            <article id="primeira">
+            <article id="primeira" class="card">
                 <h2>Primeiro post do blog</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda fugit voluptates commodi nesciunt eveniet ea ab nemo facilis pariatur autem quis esse magni voluptatibus, quam dignissimos sequi sint officia nam.
                 <p class="autor">lucas.ernandes <spam class="data-hora">
                         13/03/2026 - 12:00</spam>
                 </p>
             </article>
+            </section>
+
+             <aside id = "links-uteis" class = "card">
+                <h2>Links úteis</h2>
+                <ul>
+                    <li><a href = "http://www.ifpi.edu.br" target = "_blank">IFPI</a></li>
+                    <li><a href = "https://developer.mozilla.org/en-US/" target = "_blank">Mozilla Docs</a></li>
+                    <li><a href = "http://validator.w3.org/" target = "_blank">Validador HTML</a></li>
+                    <li><a href = "https://stackoverflow.com/" target = "_blank">Stack Overflow</a></li>
+                    <li><a href = "https://caniuse.com/" target = "_blank">Can I use</a></li>
+                    <li><a href = "https://web.dev/" target = "_blank">web.dev</a></li>
+                </ul>
+            </aside>
         </main>
 
         <footer id="rodape">
